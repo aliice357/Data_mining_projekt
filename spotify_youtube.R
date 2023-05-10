@@ -8,9 +8,7 @@ any(is.na(dane))
 
 views <- dane$Views
 stream <- dane$Stream
-hist(stream)
-hist(views, col = "blue", main = "Rozkład zmiennej Views")
-summary(views)
+hist(stream, col = "blue", main = "Rozkład zmiennej Stream")
 summary(stream)
 
 binary_stream <- rep(0, length(dane$X))
